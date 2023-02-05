@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import ir.saharapps.cryptoinfoapp.ui.theme.CryptoInfoAppTheme
+import ir.saharapps.cryptoinfoapp.presentaion.ui.theme.CryptoInfoAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

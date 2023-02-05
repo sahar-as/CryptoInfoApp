@@ -1,4 +1,4 @@
-package ir.saharapps.cryptoinfoapp.ui.theme
+package ir.saharapps.cryptoinfoapp.presentaion.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
