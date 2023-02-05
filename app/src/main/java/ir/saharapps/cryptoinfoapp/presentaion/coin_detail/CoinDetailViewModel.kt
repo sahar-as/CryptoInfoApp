@@ -9,7 +9,6 @@ import ir.saharapps.cryptoinfoapp.common.Constants
 import ir.saharapps.cryptoinfoapp.common.Resource
 import ir.saharapps.cryptoinfoapp.domain.use_case.GetCoinDetailsUseCase
 import ir.saharapps.cryptoinfoapp.presentaion.CoinDetailState
-import ir.saharapps.cryptoinfoapp.presentaion.coin_list.CoinListState
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
