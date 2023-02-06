@@ -4,11 +4,13 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import ir.saharapps.cryptoinfoapp.common.Constants
 import ir.saharapps.cryptoinfoapp.common.Resource
 import ir.saharapps.cryptoinfoapp.domain.use_case.GetCoinDetailsUseCase
 import ir.saharapps.cryptoinfoapp.presentaion.CoinDetailState
+import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
 
@@ -40,6 +42,6 @@ class CoinDetailViewModel @Inject constructor(
                     _state.value = CoinDetailState(error = result.message ?: "An unexpected error occurred")
                 }
             }
-        }
+        }.launchIn(viewModelScope)
     }
 }
