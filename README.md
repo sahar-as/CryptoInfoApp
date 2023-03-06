@@ -1,5 +1,5 @@
 # CryptoInfoApp
-
+<br />
 <p align="center">
 <img src="https://user-images.githubusercontent.com/63088252/216900506-0a7af90b-fb97-47d1-9e23-505ba09a93eb.png"/>
 </p>
